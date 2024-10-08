@@ -1,0 +1,29 @@
+CREATE TABLE student (
+    student_id    INTEGER PRIMARY KEY,
+    name          TEXT,
+    surname       TEXT,
+    dateofbirth   TEXT,
+    yearEnrrolled NUMERIC
+);
+
+
+CREATE TABLE COURSE (
+    COURSE_id    INTEGER PRIMARY KEY,
+    name          TEXT,
+    creditPoints       INTERGER,
+    yearCOmmenced INTERGER
+);
+
+CREATE TABLE staff (
+    employee_id    INTEGER PRIMARY KEY,
+    name          TEXT,
+    surname       TEXT,
+    jobTitle TEXT
+);
+
+CREATE TABLE program (
+    program_id    INTEGER PRIMARY KEY,
+    name          TEXT,
+    creditPoints       INTERGER,
+    yearCommenced INTERGER
+);
